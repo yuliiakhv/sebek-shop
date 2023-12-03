@@ -1,0 +1,82 @@
+body {
+  overflow-x: hidden;
+  font-family: "Gilroy", sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.section__title {
+  font-size: 24px;
+}
+
+.header {
+  margin-top: 15px;
+}
+
+.header__content {
+  margin-top: 15px;
+  background: url("../images/staff.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 440px;
+  width: 100%;
+}
+
+.header__title {
+  font-size: 62px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.categories {
+  margin-top: 70px;
+}
+
+.categories__block {
+  display: block;
+  margin-top: 30px;
+  background-color: #e2e2e2;
+  text-align: center;
+  height: 220px;
+}
+
+.categories__block-title {
+  margin: auto;
+}
+
+.categories__block:hover {
+  color: black;
+  opacity: .7;
+}
+
+.categories__image {
+  max-width: 100%;
+  max-height: 150px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 70px;
+  background-color: #e2e2e2;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 54px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
