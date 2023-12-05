@@ -74,6 +74,56 @@ a {
     font-size: 12px;
 }
 
+.faq {
+    margin: 70px 0;
+
+    &__answer {
+        font-weight: 300;
+    }
+}
+
+.contacts {
+    margin: 70px 0;
+
+    &__type {
+        min-width: 80px;
+    }
+
+    &__item {
+        font-weight: 300;
+    }
+
+    & .form-control {
+        border-color: black;
+        border-radius: 0;
+    }
+}
+
+.cart {
+    margin-top: 70px;
+
+    &__image {
+        height: 100px;
+    }
+}
+
+.table-bordered td,
+.table-bordered th {
+    border-color: black;
+}
+
+.confirm-button {
+    background: transparent;
+    border: 1px solid black;
+    padding: 6px 22px;
+
+    &:hover {
+        background: black;
+        color: white;
+        transition: .4s;
+    }
+}
+
 @media (max-width: 768px) {
     .header__title {
         font-size: 54px;

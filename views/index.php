@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebek-shop</title>
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/fonts.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
@@ -18,13 +19,13 @@
             </div>
 
             <nav class="header__nav d-md-block d-none">
-                <a href="#" class="mr-3">Store</a>
-                <a href="#" class="mr-3">FAQ</a>
-                <a href="#">Contacts</a>
+                <a href="index.php" class="mr-3">Store</a>
+                <a href="faq.php" class="mr-3">FAQ</a>
+                <a href="contacts.php">Contacts</a>
             </nav>
 
-            <a href="#" class="header__cart d-block">Cart -
-                <span class="header__cart-counter">0</span>
+            <a href="cart.php" class="header__cart d-block">Cart -
+                <span class="header__cart-counter">2</span>
             </a>
         </div>
 
@@ -32,7 +33,6 @@
             <h1 class="header__title">Hello, dear darlings!</h1>
         </div>
     </header>
-
 
     <section class="categories">
         <div class="container">
@@ -72,8 +72,8 @@
             <div class="footer__rights">© 2023 All rights reserved</div>
 
             <div class="footer__social-links">
-                <a href="#" class="mr-2">Instagram</a>
-                <a href="#">Telegram</a>
+                <a href="https://www.instagram.com/00000000000001k" class="mr-2">Instagram</a>
+                <a href="https://t.me/joinchat/AAAAAFdzT5znhxeC6xOf3Q">Telegram</a>
             </div>
         </div>
     </footer>
