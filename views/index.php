@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-lg-3 col-6">
                     <a href="#" class="categories__block d-flex flex-column justify-content-center">
-                        <img class="categories__image" src="../assets/images/goods.png" alt=goods">
+                        <img class="categories__image" src="../assets/images/goods.png" alt="goods">
                         <div class="categories__block-title">Accessories</div>
                     </a>
                 </div>

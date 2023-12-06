@@ -13,7 +13,7 @@
 
 <body>
     <header class="header">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
             <div class="header__logo">
                 <a href="index.php"><img src="../assets/images/logo.jpg" alt="logo"></a>
             </div>
